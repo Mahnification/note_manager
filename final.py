@@ -19,13 +19,8 @@ note["temp_created_date"] = note["created_date"][0:5]
 note["temp_issue_date"] = note["issue_date"][0:5]
 
 # Выводим собранные данные
-print("\nВы ввели следующие данные:")
-print("Имя пользователя:", note["username"])
-print("Заголовок заметки:", note["titles"])
-print("Описание заметки:", note["content"])
-print("Статус заметки:", note["status"])
-print("Дата создания заметки:", note["temp_created_date"])
-print("Дата истечения заметки:", note["temp_issue_date"])
+print("\nСобранная информация о заметке:")
+print(note)
 
 
 
